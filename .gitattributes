@@ -1,3 +1,5 @@
+*.m linguist-detectable=true
+*.mlx linguist-detectable=true
 *.csharp linguist-detectable=false 
 *.java linguist-detectable=false  
 *.js linguist-detectable=false  
@@ -7,7 +9,6 @@
 *.html linguist-detectable=false
 *.scss linguist-detectable=false
 *.rb linguist-detectable=false
-*.m linguist-detectable=true
 *.mpp linguist-detectable=false
 *.sh linguist-detectable=false
 *.cpp linguist-detectable=false
