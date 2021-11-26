@@ -1,5 +1,5 @@
 # sL_QN_TR
-> Stochastic Quasi-Newton Methods in a Trust Region Framework (Matlab Implementation)
+> Stochastic Quasi-Newton Methods in a Trust Region Framework (MATLAB Implementation)
 
 
 The repository "sL_QN_TR" contains programs of s-LBFGS-TR and s-LSR1-TR which are stochastic algorithms based on two well-known quasi-Newton updates, i.e., 
