@@ -21,11 +21,15 @@ and ResNet-20 and ConvNet3FC2 architectures with batch normalization layers are 
 * Users can choose one of architectures and make comment (`%`) others.
 * The folder `Subroutines` includes required functions for running programs.
 * The folder `Datasets` consists three folders associated with standard benchmarks MNIST, Fashion-MNIST and CIFAR10 with their own loading file. 
-* Datasets are included in each program.
-* Users can choose one of them and make comment (`%`) others.
-* This file provides two diffrent methods for producing figures to illusterate comparisions between ```sL_BFGS_TR.m``` and ```sL_SR1_TR.m```. 
+* All datasets are included in each program. Users can choose one of them and make comment (`%`) others.
+* The file `Build_Figure.mlx` provides two diffrent methods for producing figures to illusterate comparisions between ```sL_BFGS_TR.m``` and ```sL_SR1_TR.m```. 
 * To produce figures of an example described in `Build_Figure.mlx`, if needed, the folder `Info` includes histories of loss, accuracy and training time in `.mat` formats for each algorithm.
-* To use these programs, put them together with all functions in `Subroutines` and all files/folders in a specific forder included in `Datasets`. 
+* To use programs, put them together with all functions in `Subroutines` and all files/folders in a specific forder included in `Datasets`.
+#### Programs are also available at following links:
+*  [_sL-BFGS-TR_](file:///E:/Doc_Files_Codes/Publications/Emrical__2021/EmpiricalStudy_2021_Files_for_Github/Programs_in_HTML/sL_BFGS_TR.html)
+*  [_sL-BFGS-TR_noBN](file:///E:/Doc_Files_Codes/Publications/Emrical__2021/EmpiricalStudy_2021_Files_for_Github/Programs_in_HTML/sL_BFGS_TR__noBN.html)
+*  [_sL-SR1-TR_](file:///E:/Doc_Files_Codes/Publications/Emrical__2021/EmpiricalStudy_2021_Files_for_Github/Programs_in_HTML/sL_SR1_TR.html)
+*  [_sL-SR1-TR_noBN](https://github.com/MATHinDL/sL_QN_TR/Programs_in_HTML/sL_BFGS_TR.html)
 
 
 #### Please contact us if you have any questions, suggestions, requests or bug-reports.
