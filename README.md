@@ -26,10 +26,10 @@ and ResNet-20 and ConvNet3FC2 architectures with batch normalization layers are 
 * To produce figures of an example described in `Build_Figure.mlx`, if needed, the folder `Info` includes histories of loss, accuracy and training time in `.mat` formats for each algorithm.
 * To use programs, put them together with all functions in `Subroutines` and all files/folders in a specific forder included in `Datasets`.
 #### Programs are also available at following links:
-*  [_sL-BFGS-TR_](file:///E:/Doc_Files_Codes/Publications/Emrical__2021/EmpiricalStudy_2021_Files_for_Github/Programs_in_HTML/sL_BFGS_TR.html)
-*  [_sL-BFGS-TR_noBN](file:///E:/Doc_Files_Codes/Publications/Emrical__2021/EmpiricalStudy_2021_Files_for_Github/Programs_in_HTML/sL_BFGS_TR__noBN.html)
-*  [_sL-SR1-TR_](file:///E:/Doc_Files_Codes/Publications/Emrical__2021/EmpiricalStudy_2021_Files_for_Github/Programs_in_HTML/sL_SR1_TR.html)
-*  [_sL-SR1-TR_noBN](https://github.com/MATHinDL/sL_QN_TR/Programs_in_HTML/sL_BFGS_TR.html)
+*  [sL-BFGS-TR]()
+*  [sL-BFGS-TR_noBN]()
+*  [sL-SR1-TR]()
+*  [sL-SR1-TR_noBN]()
 
 
 #### Please contact us if you have any questions, suggestions, requests or bug-reports.
