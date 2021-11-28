@@ -17,8 +17,7 @@ In this repository
 * There are four main programs as training algorithms named ```sL_BFGS_TR.m```, ```sL_SR1_TR.m```, ```sL_BFGS_TR_noBN.m ``` and ```sL_SR1_TR_noBN.m```. 
 * Every single program has been written in ```.mlx``` format (live script of Matlab) so that it provides a step-by-step guideline for users. 
 * LeNet-like, ResNet-20 and ConvNet3FC2 architectures without batch normalization layers are included in ```sL_BFGS_TR_noBN.m``` and ```sL_SR1_TR_noBN.m``` 
-and ResNet-20 and ConvNet3FC2 architectures with batch normalization layers are considered in ``` sL_BFGS_TR.m ``` and ```sL_SR1_TR.m```.
-* Users can choose one of architectures and make comment (`%`) others.
+and ResNet-20 and ConvNet3FC2 architectures with batch normalization layers are considered in ``` sL_BFGS_TR.m ``` and ```sL_SR1_TR.m```. Users can choose one of architectures and make comment (`%`) others.
 * The folder `Subroutines` includes required functions for running programs.
 * The folder `Datasets` consists three folders associated with standard benchmarks MNIST, Fashion-MNIST and CIFAR10 with their own loading file. 
 * All datasets are included in each program. Users can choose one of them and make comment (`%`) others.
