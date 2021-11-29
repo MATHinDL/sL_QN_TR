@@ -25,12 +25,6 @@ and those of ResNet-20 and ConvNet3FC2 architectures with batch normalization la
 * The file `Build_Figure.mlx` provides methods for producing figures to illusterate comparisions between sL_BFGS_TR and sL_SR1_TR. 
 * To produce figures of an example described in `Build_Figure.mlx`, if needed, the folder `Info` includes histories of loss, accuracy and training time in `.mat` formats for each algorithm.
 * To use programs, put them together with all functions in `Subroutines` and all files of the required dataset specified in `Datasets`.
-#### Programs are also available at following links:
-*  [sL-BFGS-TR]()
-*  [sL-BFGS-TR_noBN]()
-*  [sL-SR1-TR]()
-*  [sL-SR1-TR_noBN]()
-
 
 #### Please contact us if you have any questions, suggestions, requests or bug-reports.
 `mahsa.yousefi@phd.units.it`
