@@ -1,5 +1,6 @@
+![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
 # sL_QN_TR
-> **Stochastic Quasi-Newton Methods in a Trust Region Framework (MATLAB Implementation)**
+> #### Stochastic Quasi-Newton Methods in a Trust Region Framework (MATLAB Implementation)
 
 
 The repository "sL_QN_TR" contains programs of s-LBFGS-TR and s-LSR1-TR which are stochastic algorithms based on two well-known quasi-Newton updates, i.e., 
@@ -7,12 +8,10 @@ limited memory BFGS and limited memory SR1, in a Trust Region Framework.
 These algorithms, their performance to train deep neural networks in image classification and their implementation points of algorithms from creating a network to training are described in the following paper. 
 
 ### DNNs Training by Stochastic Quasi-Newton Methods: an empirical study
-#### Mahsa Yousefi and Angeles Martinez Calomardo 
+**Mahsa Yousefi** and **Angeles Martinez Calomardo** 
 
-_The paper will be linked [_here_](https://github.com/MATHinDL/sL_QN_TR) soon._
-
-![blue-divider](https://user-images.githubusercontent.com/94915927/148303771-e4632de8-83a4-46d4-ad93-2973e9f2b801.png)
-
+The paper will be linked [_here_](https://github.com/MATHinDL/sL_QN_TR) soon.
+![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
 In this repository
 * There are four main programs associated with training algorithms sL-BFGS-TR and sL-SR1-TR: 
 
@@ -27,5 +26,6 @@ and those of ResNet-20 and ConvNet3FC2 architectures with batch normalization la
 * To produce figures of an example described in `Build_Figure.mlx`, if needed, the folder `Info` includes histories of loss, accuracy and training time in `.mat` formats for each algorithm.
 * To use programs, put them together with all functions in `Subroutines` and all files of the required dataset specified in `Datasets`.
 
+![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
 #### Please contact us if you have any questions, suggestions, requests or bug-reports.
-`mahsa.yousefi@phd.units.it`
+mahsa.yousefi@phd.units.it
