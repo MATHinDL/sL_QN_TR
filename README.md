@@ -13,13 +13,15 @@ These algorithms, their performance to train deep neural networks in image class
 The paper will be linked [_here_](https://github.com/MATHinDL/sL_QN_TR) soon.
 ![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
 In this repository
-* There are four main programs associated with training algorithms sL-BFGS-TR and sL-SR1-TR: 
-
-     ```sL_BFGS_TR.mlx```, ```sL_SR1_TR.mlx```, ```sL_BFGS_TR_noBN.mlx ```,```sL_SR1_TR_noBN.mlx```
-* All programs have been written in Matlab (latest release) by using the DL toolbox.
-* Architectures of LeNet-like, ResNet-20 and ConvNet3FC2 without batch normalization layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx``` 
-and those of ResNet-20 and ConvNet3FC2 architectures with batch normalization layers are considered in ```sL_BFGS_TR.mlx``` and ```sL_SR1_TR.mlx```. Users can choose one of architectures and make comment (`%`) others.
-* Every single program has been written in ```.mlx``` format (live script of MATLAB) so that it provides a step-by-step guideline for users. 
+* All programs have been written in MATLAB using the DL toolbox.
+* There are four main programs:
+  - [sL_BFGS_TR.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/sL_BFGS_TR.html)
+  - [sL_SR1_TR.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/sL_SR1_TR.html)
+  - [sL_BFGS_TR_noBN.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/sL_BFGS_TR_noBN.html)
+  - [sL_SR1_TR_noBN.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/sL_SR1_TR_noBN.html)
+* Every single program in ```.mlx``` format (live script of MATLAB) provides a step-by-step guideline for users. 
+* Architectures of LeNet-like, ResNet-20 and ConvNet3FC2 **without** batch normalization layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx``` 
+and those of ResNet-20 and ConvNet3FC2 architectures **with** batch normalization layers are considered in ```sL_BFGS_TR.mlx``` and ```sL_SR1_TR.mlx```.
 * The folder `Subroutines` includes required functions for running programs.
 * The folder `Datasets` consists three folders associated with standard benchmarks MNIST, Fashion-MNIST and CIFAR10 with their own loading file. All datasets are included in each program. Users can choose one of them and make comment (`%`) others.
 * The file `Build_Figure.mlx` provides methods for producing figures to illusterate comparisions between sL_BFGS_TR and sL_SR1_TR. 
