@@ -17,7 +17,7 @@ In this repository
 * There are four main programs:
   - [sL_BFGS_TR.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/sL_BFGS_TR.html)
   - [sL_SR1_TR.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/sL_SR1_TR.html)
-  - [sL_BFGS_TR_noBN.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/sL_BFGS_TR_noBN.html)
+  - [sL_BFGS_TR_noBN](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/sL_BFGS_TR_noBN.html)
   - [sL_SR1_TR_noBN.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/sL_SR1_TR_noBN.html)
 * Every single program in ```.mlx``` format (live script of MATLAB) provides a step-by-step guideline for users. 
 * Because of the use of batch normalization (BN) layers in network architectures,
