@@ -20,11 +20,13 @@ In this repository
   - [sL_BFGS_TR_noBN.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/sL_BFGS_TR_noBN.html)
   - [sL_SR1_TR_noBN.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/sL_SR1_TR_noBN.html)
 * Every single program in ```.mlx``` format (live script of MATLAB) provides a step-by-step guideline for users. 
-* Architectures of LeNet-like, ResNet-20 and ConvNet3FC2 **without** batch normalization layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx``` 
-and those of ResNet-20 and ConvNet3FC2 architectures **with** batch normalization layers are considered in ```sL_BFGS_TR.mlx``` and ```sL_SR1_TR.mlx```.
-* The folder `Subroutines` includes required functions for running programs.
+* Because of the use of batch normalization (BN) layers in network architectures,
+  - *LeNet-like*, *ResNet-20* and *ConvNet3FC2* **without** BN layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx```  
+  - *ResNet-20* and *ConvNet3FC2* **with** BN layers are considered in ```sL_BFGS_TR.mlx``` and ```sL_SR1_TR.mlx```. 
+* The folder `Subroutines` includes required functions (```.m``` files) for running programs.
 * The folder `Datasets` consists three folders associated with standard benchmarks MNIST, Fashion-MNIST and CIFAR10 with their own loading file. All datasets are included in each program. Users can choose one of them and make comment (`%`) others.
-* The file `Build_Figure.mlx` provides methods for producing figures to illusterate comparisions between sL_BFGS_TR and sL_SR1_TR. 
+* The following file provides methods for producing figures to illusterate comparisions between sL_BFGS_TR and sL_SR1_TR:
+  - [Build_Figure.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/Build_Figure.html)
 * To produce figures of an example described in `Build_Figure.mlx`, if needed, the folder `Info` includes histories of loss, accuracy and training time in `.mat` formats for each algorithm.
 * To use programs, put them together with all functions in `Subroutines` and all files of the required dataset specified in `Datasets`.
 
