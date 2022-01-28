@@ -15,10 +15,10 @@ The paper will be linked [_here_](https://github.com/MATHinDL/sL_QN_TR) soon.
 In this repository
 * All programs have been written in MATLAB using the DL toolbox.
 * There are four main programs:
-  - [sL_BFGS_TR.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/sL_BFGS_TR.html)
-  - [sL_SR1_TR.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/sL_SR1_TR.html)
-  - [sL_BFGS_TR_noBN.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/sL_BFGS_TR_noBN.html)
-  - [sL_SR1_TR_noBN.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/sL_SR1_TR_noBN.html)
+  - [sL_BFGS_TR.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/sL_BFGS_TR.html)
+  - [sL_SR1_TR.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/sL_SR1_TR.html)
+  - [sL_BFGS_TR_noBN.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/sL_BFGS_TR_noBN.html)
+  - [sL_SR1_TR_noBN.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/sL_SR1_TR_noBN.html)
 * Every single program in ```.mlx``` format (live script of MATLAB) provides a step-by-step guideline for users. 
 * Because of the use of batch normalization (BN) layers in network architectures,
   - *LeNet-like*, *ResNet-20* and *ConvNet3FC2* **without** BN layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx```  
@@ -26,7 +26,7 @@ In this repository
 * The folder `Subroutines` includes required functions (```.m``` files) for running programs.
 * The folder `Datasets` consists three folders associated with standard benchmarks MNIST, Fashion-MNIST and CIFAR10 with their own loading file.
 * The following file provides methods for producing figures to illusterate comparisions between sL_BFGS_TR and sL_SR1_TR:
-  - [Build_Figure.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/Build_Figure.html)
+  - [Build_Figure.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/Build_Figure.html)
 * To create figures for the example described in `Build Figure.mlx`, the values of loss, accuracy, and training time stored in the folder `Info` are required.
 * For executing, put together main programs  with all .m files and required files from `Subroutines` and `Datasets`, respectively.
 
