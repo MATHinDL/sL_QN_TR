@@ -24,11 +24,11 @@ In this repository
   - *LeNet-like*, *ResNet-20* and *ConvNet3FC2* **without** BN layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx```  
   - *ResNet-20* and *ConvNet3FC2* **with** BN layers are considered in ```sL_BFGS_TR.mlx``` and ```sL_SR1_TR.mlx```. 
 * The folder `Subroutines` includes required functions (```.m``` files) for running programs.
-* The folder `Datasets` consists three folders associated with standard benchmarks MNIST, Fashion-MNIST and CIFAR10 with their own loading file. All datasets are included in each program. Users can choose one of them and make comment (`%`) others.
+* The folder `Datasets` consists three folders associated with standard benchmarks MNIST, Fashion-MNIST and CIFAR10 with their own loading file.
 * The following file provides methods for producing figures to illusterate comparisions between sL_BFGS_TR and sL_SR1_TR:
   - [Build_Figure.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/Build_Figure.html)
-* To produce figures of an example described in `Build_Figure.mlx`, if needed, the folder `Info` includes histories of loss, accuracy and training time in `.mat` formats for each algorithm.
-* To use programs, put them together with all functions in `Subroutines` and all files of the required dataset specified in `Datasets`.
+* To create figures for the example described in `Build Figure.mlx`, the values of loss, accuracy, and training time stored in the folder `Info` are required.
+* For executing, put together main programs  with all .m files and required files from `Subroutines` and `Datasets`, respectively.
 
 ![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
 #### Please contact us if you have any questions, suggestions, requests or bug-reports.
