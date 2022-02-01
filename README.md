@@ -20,7 +20,7 @@ In this repository
   - [sL_BFGS_TR_noBN](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/sL_BFGS_TR_noBN.html)
   - [sL_SR1_TR_noBN.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/sL_SR1_TR_noBN.html)
 * Every single program in ```.mlx``` format (live script of MATLAB) provides a step-by-step guideline for users. 
-* Because of the use of batch normalization (BN) layers in network architectures,
+* **Architectures** with and without batch normalization (BN) layers:
   - *LeNet-like*, *ResNet-20* and *ConvNet3FC2* **without** BN layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx```  
   - *ResNet-20* and *ConvNet3FC2* **with** BN layers are considered in ```sL_BFGS_TR.mlx``` and ```sL_SR1_TR.mlx```. 
 * The folder `Subroutines` includes required functions (```.m``` files) for running programs.
