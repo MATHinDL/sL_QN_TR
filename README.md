@@ -7,10 +7,15 @@ The repository "sL_QN_TR" contains programs of s-LBFGS-TR and s-LSR1-TR which ar
 limited memory BFGS and limited memory SR1, in a Trust Region Framework. 
 These algorithms, their performance to train deep neural networks in image classification and their implementation points of algorithms from creating a network to training are described in the following paper: 
 
-### DNNs Training by Stochastic Quasi-Newton Methods: an empirical study
+### On the efficiency of Stochastic Quasi-Newton Methods for Deep Learning
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
 
 The paper will be linked [_here_](https://github.com/MATHinDL/sL_QN_TR) soon.
+
+### On the efficiency of Stochastic Quasi-Newton Methods for Deep Learning: Supplementary material
+**Mahsa Yousefi** and **Angeles Martinez Calomardo** 
+
+The material will be linked [_here_](https://github.com/MATHinDL/sL_QN_TR) soon.
 
 ### A MATLAB-based tutorial on implementing of training loops for a deep neural network
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
