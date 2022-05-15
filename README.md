@@ -12,10 +12,7 @@ These algorithms, their performance to train deep neural networks in image class
 
 The paper will be linked [_here_](https://github.com/MATHinDL/sL_QN_TR) soon.
 
-#### On the efficiency of Stochastic Quasi-Newton Methods for Deep Learning: Supplementary material
-**Mahsa Yousefi** and **Angeles Martinez Calomardo** 
-
-The material will be linked [_here_](https://github.com/MATHinDL/sL_QN_TR) soon.
+The supplementary material will be linked [_here_](https://github.com/MATHinDL/sL_QN_TR) soon.
 
 ### A MATLAB-based tutorial on implementing of training loops for a deep neural network
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
