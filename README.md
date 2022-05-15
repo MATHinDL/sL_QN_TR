@@ -14,6 +14,7 @@ The paper will be linked [_here_](https://github.com/MATHinDL/sL_QN_TR) soon.
 
 ### A MATLAB-based tutorial on implementing of training loops for a deep neural network
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
+
 This tutorial can help you how to define a convolutional neural network (CNN) and how to create customize your own training loops. If you are a MATLAB user who would like to implement their own training algorithm for which MATLAB built-in functions do not exist, [read this manuscript](https://github.com/MATHinDL/sL_QN_TR). 
 
 ![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
