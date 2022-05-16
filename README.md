@@ -10,12 +10,15 @@ These algorithms, their performance to train deep neural networks in image class
 ### On the efficiency of Stochastic Quasi-Newton Methods for Deep Learning
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
 
-[ Download ](https://github.com/MATHinDL/sL_QN_TR/files/8703140/Efficient_QN_for_DL.pdf) this paper.
+[ Download the Paper ](https://github.com/MATHinDL/sL_QN_TR/files/8703140/Efficient_QN_for_DL.pdf).
 
 ### A MATLAB-based tutorial on implementing of training loops for a deep neural network
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
 
-This tutorial can help you how to define a convolutional neural network (CNN) and how to create customize your own training loops. If you are a MATLAB user who would like to implement their own training algorithm for which MATLAB built-in functions do not exist, [read this tutorial](https://github.com/MATHinDL/sL_QN_TR). 
+This tutorial can help you how to define a convolutional neural network (CNN) and how to create customize your own training loops. If you are a MATLAB user who would like to implement their own training algorithm for which MATLAB built-in functions do not exist, read this tutorial. 
+
+[ Read the Tutorial ](https://github.com/MATHinDL/sL_QN_TR/files/8703209/Matlab_DL_Tutorial.pdf).
+
 
 ![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
 In this repository
