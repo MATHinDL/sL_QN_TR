@@ -12,6 +12,8 @@ These algorithms, their performance to train deep neural networks in image class
 
 [ Download the Paper.](https://github.com/MATHinDL/sL_QN_TR/files/8703631/Efficient_QN_for_DL.pdf)
 
+[Download the Supplementary Material of the Paper.](https://github.com/MATHinDL/sL_QN_TR/files/8703912/Supplementary_Efficient_QN_for_DL.pdf)
+
 
 ### A MATLAB-based tutorial on implementing of training loops for a deep neural network
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
