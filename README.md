@@ -36,8 +36,6 @@ In this repository
 * The folder `Datasets` consists three folders associated with standard benchmarks MNIST, Fashion-MNIST and CIFAR10 with their own loading file.
 * The following file provides methods for producing figures to illusterate comparisions between sL_BFGS_TR and sL_SR1_TR:
   - [Build_Figure.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/Build_Figures.html)
-
-[jjjjjjjjjjjjjjjjjj](http://htmlpreview.github.io/?https://github.com/MATHinDL/sL_QN_TR/blob/main/HTML/Build_Figures.html)
 * To create figures for the example described in `Build Figure.mlx`, the values of loss, accuracy, and training time stored in the folder `Info` are required.
 * For executing, put together main programs  with all .m files and required files from `Subroutines` and `Datasets`, respectively.
 
