@@ -20,7 +20,7 @@ These algorithms, their performance to train deep neural networks in image class
 
 This tutorial shows you how to define a convolutional neural network (CNN) and how to create customize your own training loops. If you are a MATLAB user who would like to implement their own training algorithm for which the MATLAB built-in function does not exist, read this tutorial. 
 
-[Read the Tutorial.](https://github.com/MATHinDL/sL_QN_TR/files/8707696/Matlab_DL_Tutorial.pdf)
+[Read the Tutorial.](https://rawgit.com/MATHinDL/sL_QN_TR/main/Matlab_DL_Tutorial.pdf)
 
 
 ![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
