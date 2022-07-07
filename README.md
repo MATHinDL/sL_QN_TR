@@ -10,18 +10,18 @@ These algorithms, their performance to train deep neural networks in image class
 ### On the efficiency of Stochastic Quasi-Newton Methods for Deep Learning
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
 
-[ Download the Paper.](https://github.com/MATHinDL/sL_QN_TR/files/8754426/Efficient_SQN_for_DL.pdf)
+
+[Download the Paper.](https://www.researchgate.net/publication/360692168_On_the_efficiency_of_Stochastic_Quasi-Newton_Methods_for_Deep_Learning)
 
 [Download the Supplementary Material of the Paper.](https://github.com/MATHinDL/sL_QN_TR/files/8703942/Supplementary_Efficient_QN_for_DL.pdf)
 
-[![Fibonacci RMI Java EE]](https://www.researchgate.net/publication/360692168_On_the_efficiency_of_Stochastic_Quasi-Newton_Methods_for_Deep_Learning)
 
 ### A MATLAB-based tutorial on implementing of training loops for a deep neural network
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
 
 This tutorial shows you how to define a convolutional neural network (CNN) and how to create customize your own training loops. If you are a MATLAB user who would like to implement their own training algorithm for which the MATLAB built-in function does not exist, read this tutorial. 
 
-[Read the Tutorial.](https://rawgit.com/MATHinDL/sL_QN_TR/main/DL_Matlab_Tutorial.pdf)
+[Read the Tutorial.](https://www.researchgate.net/publication/360689841_A_MATLAB-based_tutorial_on_implementing_custom_loops_for_training_a_deep_neural_network)
 
 ![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
 In this repository
