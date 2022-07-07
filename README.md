@@ -2,7 +2,6 @@
 # sL_QN_TR
 > #### Stochastic Quasi-Newton Methods in a Trust Region Framework (MATLAB Implementation)
 
-[![Fibonacci RMI Java EE](http://img.youtube.com/vi/nX_inqaAzOI/0.jpg)](https://www.youtube.com/watch?v=nX_inqaAzOI&feature=youtu.be&hd=1 "RMI Fibonacci Java")
 
 The repository "sL_QN_TR" contains programs of s-LBFGS-TR and s-LSR1-TR which are stochastic algorithms based on two well-known quasi-Newton updates, i.e., 
 limited memory BFGS and limited memory SR1, in a Trust Region Framework. 
@@ -15,6 +14,7 @@ These algorithms, their performance to train deep neural networks in image class
 
 [Download the Supplementary Material of the Paper.](https://github.com/MATHinDL/sL_QN_TR/files/8703942/Supplementary_Efficient_QN_for_DL.pdf)
 
+[![Fibonacci RMI Java EE]](https://www.researchgate.net/publication/360692168_On_the_efficiency_of_Stochastic_Quasi-Newton_Methods_for_Deep_Learning)
 
 ### A MATLAB-based tutorial on implementing of training loops for a deep neural network
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
