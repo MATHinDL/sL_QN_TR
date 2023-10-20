@@ -5,21 +5,21 @@
 
 The repository "sL_QN_TR" contains programs of s-LBFGS-TR and s-LSR1-TR which are stochastic algorithms based on two well-known quasi-Newton updates, i.e., 
 limited memory BFGS and limited memory SR1, in a Trust Region Framework. 
-These algorithms, their performance to train deep neural networks in image classification and their implementation points of algorithms from creating a network to training are described in the following paper: 
+These algorithms, their performance in training deep neural networks in image classification, and their implementation points of algorithms from creating a network to training are described in the following paper: 
 
-### On the efficiency of Stochastic Quasi-Newton Methods for Deep Learning
+### Deep Neural Networks Training by Stochastic Quasi-Newton Trust-Region Methods 
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
 
 
-[Read and Download the Paper.](https://www.researchgate.net/publication/360692168_On_the_efficiency_of_Stochastic_Quasi-Newton_Methods_for_Deep_Learning)
+[Read and Download the Paper.](https://www.researchgate.net/publication/374848670_Deep_Neural_Networks_Training_by_Stochastic_Quasi-Newton_Trust-Region_Methods)
 
-[Download the Supplementary Material of the Paper.](https://github.com/MATHinDL/sL_QN_TR/files/8703942/Supplementary_Efficient_QN_for_DL.pdf)
+[Download the Supplementary Material of the Paper.](file:///C:/Users/Fara%20system%20Amlash/Downloads/supplementary_16-00490.pdf)
 
 
-### A MATLAB-based tutorial on implementing of training loops for a deep neural network
+### A MATLAB-based tutorial on implementing training loops for a deep neural network
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
 
-This tutorial shows you how to define a convolutional neural network (CNN) and how to create customize your own training loops. If you are a MATLAB user who would like to implement their own training algorithm for which the MATLAB built-in function does not exist, read this tutorial. 
+This tutorial shows you how to define a convolutional neural network (CNN) and how to create and customize your own training loops. If you are a MATLAB user who would like to implement your own training algorithm for which the MATLAB built-in function does not exist, read this tutorial. 
 
 [Read and Download the Tutorial.](https://www.researchgate.net/publication/360689841_A_MATLAB-based_tutorial_on_implementing_custom_loops_for_training_a_deep_neural_network)
 
@@ -36,12 +36,12 @@ In this repository
   - *LeNet-like*, *ResNet-20* and *ConvNet3FC2* **without** BN layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx```  
   - *ResNet-20* and *ConvNet3FC2* **with** BN layers are considered in ```sL_BFGS_TR.mlx``` and ```sL_SR1_TR.mlx```. 
 * The folder `Subroutines` includes required functions (```.m``` files) for running programs.
-* The folder `Datasets` consists three folders associated with standard benchmarks MNIST, Fashion-MNIST and CIFAR10 with their own loading file.
-* The following file provides methods for producing figures to illusterate comparisions between sL_BFGS_TR and sL_SR1_TR:
+* The folder `Datasets` consists of three folders associated with standard benchmarks MNIST, Fashion-MNIST, and CIFAR10 with their own loading file.
+* The following file provides methods for producing figures to illustrate comparisons between sL_BFGS_TR and sL_SR1_TR:
   - [Build_Figure.mlx](https://rawgit.com/MATHinDL/sL_QN_TR/main/HTML/Build_Figures.html)
 * To create figures for the example described in `Build Figure.mlx`, the values of loss, accuracy, and training time stored in the folder `Info` are required.
 * For executing, put together main programs  with all .m files and required files from `Subroutines` and `Datasets`, respectively.
 
 ![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
-#### Please contact me if you have any questions, suggestions, requests or bug-reports.
+#### Please contact me if you have any questions, suggestions, requests, or bug-reports.
 mahsa.yousefi@phd.units.it
