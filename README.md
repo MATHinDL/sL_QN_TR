@@ -13,7 +13,7 @@ These algorithms, their performance in training deep neural networks in image cl
 
 [Read and Download the Paper.](https://www.researchgate.net/publication/374848670_Deep_Neural_Networks_Training_by_Stochastic_Quasi-Newton_Trust-Region_Methods)
 
-[Download the Supplementary Material of the Paper.](file:///C:/Users/Fara%20system%20Amlash/Downloads/supplementary_16-00490.pdf)
+Download the supplementary material of the paper for more numerical results.
 
 
 ### A MATLAB-based tutorial on implementing training loops for a deep neural network
