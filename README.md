@@ -39,7 +39,8 @@ In this repository,
   - ```ResNet-20```
   - ```ConvNet3FC2```
 * the networks *without* batch normalization layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx``` programs.   
-* **Remark:** For executing, put together main programs  with all .m files and required files from `Subroutines` and `Datasets`, respectively.
+
+**Remark:** For executing, put together main programs  with all .m files and required files from `Subroutines` and `Datasets`, respectively.
 
 ![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
 #### Please contact me if you have any questions, suggestions, requests, or bug reports.
