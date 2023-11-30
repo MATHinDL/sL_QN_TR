@@ -26,17 +26,19 @@ This tutorial shows you how to define a convolutional neural network (CNN) and h
 ![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
 In this repository
 * All programs have been written in MATLAB using the DL toolbox.
-* There are four main programs:
+* There are four main programs as below:
   - ```sL_BFGS_TR.mlx```
   - ```sL_SR1_TR.mlx```
   - ```sL_BFGS_TR_noBN.mlx```
   - ```sL_SR1_TR_noBN.mlx```
 * Every single program in ```.mlx``` format (live script of MATLAB) provides a step-by-step guideline for users. 
-* **Architectures** with and without batch normalization layers:
-  - ```LeNet-like```, ```ResNet-20``` and ```ConvNet3FC2``` *without* batch normalization layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx```  
-  - ```ResNet-20``` and ```ConvNet3FC2``` *with* batch normalization layers are considered in ```sL_BFGS_TR.mlx``` and ```sL_SR1_TR.mlx```. 
 * The folder `Subroutines` includes required functions (```.m``` files) for running programs.
 * The folder `Datasets` consists of three folders associated with standard benchmarks MNIST, Fashion-MNIST, and CIFAR10 with their loading file.
+Three considered main architectures with and without batch normalization layers are:
+  - ```LeNet-like```
+  - ```ResNet-20```
+  - ```ConvNet3FC2```
+* The networks *without* batch normalization layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx``` programs.   
 * For executing, put together main programs  with all .m files and required files from `Subroutines` and `Datasets`, respectively.
 
 ![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
