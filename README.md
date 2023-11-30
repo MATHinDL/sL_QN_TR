@@ -5,7 +5,7 @@
 
 The repository "sL_QN_TR" contains programs of s-LBFGS-TR and s-LSR1-TR which are stochastic algorithms based on two well-known quasi-Newton updates, i.e., 
 limited memory BFGS and limited memory SR1, in a Trust Region Framework. 
-These algorithms, their performance in training deep neural networks in image classification, and their implementation points of algorithms from creating a network to training are described in the following paper: 
+These algorithms, their performance in training deep neural networks in image classification, and their implementation points of algorithms from creating a network to training are described in the following article: 
 
 ### Deep Neural Networks Training by Stochastic Quasi-Newton Trust-Region Methods 
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
@@ -32,9 +32,9 @@ In this repository
   - ```sL_BFGS_TR_noBN.mlx```
   - ```sL_SR1_TR_noBN.mlx```
 * Every single program in ```.mlx``` format (live script of MATLAB) provides a step-by-step guideline for users. 
-* **Architectures** with and without batch normalization (BN) layers:
-  - ```LeNet-like```, ```ResNet-20``` and ```ConvNet3FC2``` **without** BN layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx```  
-  - ```ResNet-20``` and ```ConvNet3FC2``` **with** BN layers are considered in ```sL_BFGS_TR.mlx``` and ```sL_SR1_TR.mlx```. 
+* **Architectures** with and without batch normalization layers:
+  - ```LeNet-like```, ```ResNet-20``` and ```ConvNet3FC2``` *without* batch normalization layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx```  
+  - ```ResNet-20``` and ```ConvNet3FC2``` *with* batch normalization layers are considered in ```sL_BFGS_TR.mlx``` and ```sL_SR1_TR.mlx```. 
 * The folder `Subroutines` includes required functions (```.m``` files) for running programs.
 * The folder `Datasets` consists of three folders associated with standard benchmarks MNIST, Fashion-MNIST, and CIFAR10 with their loading file.
 * For executing, put together main programs  with all .m files and required files from `Subroutines` and `Datasets`, respectively.
