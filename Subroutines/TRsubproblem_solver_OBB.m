@@ -20,13 +20,9 @@ lambda1            = lambda_hat + gamma;
 lambda             = [lambda1; gamma];
 % ----------------------------------------------------------------------
 % ------------------------------min eigen_value ------------------------
-lambda       = lambda.*( abs(lambda) > obb_tol );
-lambda_min   = min(lambda(1), gamma);
 
-if lambda_min <=0
-    error('lambda_min <= 0')
-end
-    
+lambda_min   = min(lambda(1), gamma);
+   
 % ----------------------------------------------------------------------
 % --------------------------- P_ll,  |p_perb|,  a ---------------------
 P_ll         = Q*U;
