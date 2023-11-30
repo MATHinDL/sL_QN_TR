@@ -19,7 +19,7 @@ Download the supplementary material of the paper for more numerical results.
 ### A MATLAB-based tutorial on implementing training loops for a deep neural network
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
 
-This tutorial shows you how to define a convolutional neural network (CNN) and how to create and customize your own training loops. If you are a MATLAB user who would like to implement your own training algorithm for which the MATLAB built-in function does not exist, read this tutorial. 
+This tutorial shows you how to define a convolutional neural network (CNN) and how to create and customize your training loops. If you are a MATLAB user who would like to implement your training algorithm for which the MATLAB built-in function does not exist, read this tutorial. 
 
 [Read and Download the Tutorial.](https://www.researchgate.net/publication/360689841_A_MATLAB-based_tutorial_on_implementing_custom_loops_for_training_a_deep_neural_network)
 
@@ -27,10 +27,10 @@ This tutorial shows you how to define a convolutional neural network (CNN) and h
 In this repository
 * All programs have been written in MATLAB using the DL toolbox.
 * There are four main programs:
-  - sL_BFGS_TR.mlx
-  - sL_SR1_TR.mlx
-  - sL_BFGS_TR_noBN.mlx
-  - sL_SR1_TR_noBN.mlx
+  - ```sL_BFGS_TR.mlx```
+  - ```sL_SR1_TR.mlx```
+  - ```sL_BFGS_TR_noBN.mlx```
+  - ```sL_SR1_TR_noBN.mlx```
 * Every single program in ```.mlx``` format (live script of MATLAB) provides a step-by-step guideline for users. 
 * **Architectures** with and without batch normalization (BN) layers:
   - *LeNet-like*, *ResNet-20* and *ConvNet3FC2* **without** BN layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx```  
