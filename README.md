@@ -33,7 +33,7 @@ In this repository
   - ```sL_SR1_TR_noBN.mlx```
 * Every single program in ```.mlx``` format (live script of MATLAB) provides a step-by-step guideline for users. 
 * **Architectures** with and without batch normalization (BN) layers:
-  - *LeNet-like*, *ResNet-20* and *ConvNet3FC2* **without** BN layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx```  
+  - ```*LeNet-like*```, *ResNet-20* and *ConvNet3FC2* **without** BN layers are included in ```sL_BFGS_TR_noBN.mlx``` and ```sL_SR1_TR_noBN.mlx```  
   - *ResNet-20* and *ConvNet3FC2* **with** BN layers are considered in ```sL_BFGS_TR.mlx``` and ```sL_SR1_TR.mlx```. 
 * The folder `Subroutines` includes required functions (```.m``` files) for running programs.
 * The folder `Datasets` consists of three folders associated with standard benchmarks MNIST, Fashion-MNIST, and CIFAR10 with their own loading file.
