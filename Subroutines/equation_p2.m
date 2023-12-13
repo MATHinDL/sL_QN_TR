@@ -1,7 +1,7 @@
 %_________________________________________________________________
 % Author: Mahsa Yousefi (2021)
 %_________________________________________________________________
-% This code soves linear system: (B + sigma I)p = -g 
+% This code solves linear system: (B + sigma I)p = -g 
 
 function p = equation_p2(sigma, gamma, g, a, lambda, P_ll, g_ll)
 eq_tol  = 1e-10;
