@@ -2,7 +2,7 @@
 % Author: Mahsa Yousefi (2021)
 %_________________________________________________________________
 
-% This code soves following linear system:
+% This code solves the following linear system:
 % (B + sigma I)p = -g ===>>> p* = -inv(B + sigma I)*g
 % instead:
 % Sherman-Morison-Woodbury (SMW) Formula for computing "inv(B + sigma I)"
