@@ -11,9 +11,9 @@ These algorithms and their performance in training deep neural networks for imag
 **Mahsa Yousefi** and **Angeles Martinez Calomardo** 
 
 
-[Read and Download the Paper.](https://www.researchgate.net/publication/374848670_Deep_Neural_Networks_Training_by_Stochastic_Quasi-Newton_Trust-Region_Methods)
+[Download and Read the Paper.](https://www.researchgate.net/publication/374848670_Deep_Neural_Networks_Training_by_Stochastic_Quasi-Newton_Trust-Region_Methods)
 
-Download the supplementary material of the paper for more numerical results.
+Read the supplementary material of the paper for more numerical results.
 
 
 ### A MATLAB-based tutorial on implementing training loops for a deep neural network
@@ -21,7 +21,7 @@ Download the supplementary material of the paper for more numerical results.
 
 This tutorial shows how to define a convolutional neural network (CNN) and how to create and customize your training loops. If you are a MATLAB user who would like to implement your training algorithm for which the MATLAB built-in function does not exist, read this tutorial. 
 
-[Read and Download the Tutorial.](https://www.researchgate.net/publication/360689841_A_MATLAB-based_tutorial_on_implementing_custom_loops_for_training_a_deep_neural_network)
+[Download and Read the Tutorial.](https://www.researchgate.net/publication/360689841_A_MATLAB-based_tutorial_on_implementing_custom_loops_for_training_a_deep_neural_network)
 
 ![blue-lines-png-7](https://user-images.githubusercontent.com/94915927/148304988-76a4f426-a045-402c-bebe-aec0dfccf02c.png)
 
